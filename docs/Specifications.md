@@ -47,6 +47,8 @@ Here, sign in is not a requirement as all feature can be accessed (except the ex
 ### 2.2. Visualization
 Further visualization compared to the mobile app should be possible, both on map and charts.
 
+We need to define any road safety formulae checks we are using.
+
 ### 2.3. Exchange center
 Here the exchange center should have more features:
 #### Download
