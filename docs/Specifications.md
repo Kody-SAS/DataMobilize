@@ -16,6 +16,13 @@ The user should be able to delete his account in the app.
 Reporting is done by filling a form and providing a proof (photo or 30 seconds max video length with max 16Mb data). 
 Reporting consist of description, location and proof. Relevant permissions must then be taken since incidents reported are to be geolocated.
 
+Data reporting should be done either on:
+#### 1.2.1. Road infrastructure
+Here the user reports the road infrastructure state, the description form should follow these requirements
+
+#### 1.2.2. Road accidents
+Here the user reports accidents (do not provide victimes photos or videos).
+
 ### 1.3. Visualization
 Data visualization is done by:
 #### 1.3.1.Charts
