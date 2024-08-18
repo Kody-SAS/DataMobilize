@@ -5,6 +5,8 @@ We separate the features of the app in various tasks:
 - Data reporting
 - Visualisation
 - Exchange center
+- Language
+- On and Offline
 
 ### 1.1. Account
 The user should be able to sign in to his account. Anonymous data contributions should not be permitted since this can encourage data spamming. Data should be traceable.
@@ -56,3 +58,10 @@ The user should be able to download the data of interest (or the part filtered i
 
 #### 2.4. Articles and blogs
 The user should have access to the articles, blogs and latest news related to road safety and initiatives.
+
+## 3. Language
+The app and website should be multilingual. Additional languages can be added with due time. We first aim for french and english
+
+## 3. On and Offline
+The user can use the app with and without internet. Offline mode should permit cloud sync when connected to the internet. The data should be persisted between usage.
+Offline mode will not be the case of the website.
