@@ -1,0 +1,35 @@
+name: Register for the Hackathon
+description: Improve road safety by filling the participation form
+title: "Registration for DataMobilize Hackathon"
+labels: ["Hackathon", "Competition", "Tech", "Road Safety"]
+body:
+  - type: textarea
+  attributes:
+    label: Telegram handle
+    description: You will join the telegram group of the competition, make sure to install the app and provide your telegram handle here.
+  validations:
+    required: true
+  - type: textarea
+  attributes:
+    label: Team name
+    description: Provide your team's name.
+  validations:
+    required: true
+  - type: textarea
+  attributes:
+    lable: Team members
+    description: You can participate alone or a maximum of 5 candidates, provide their telegram's handle separated by a comma
+    placeholder: @peter, @vanessa
+  validations:
+    required: true
+  - type: dropdown
+    id: project
+    attributes:
+      label: Which topic do you plan on working on ?
+      multiple: false
+      options:
+        - Road safety perception reporting
+        - Road infrastructure defect reporting
+        - Incident reporting
+  validations:
+    required: true
