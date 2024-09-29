@@ -3,13 +3,48 @@ description: Improve road safety by filling the participation form
 title: "Registration for DataMobilize Hackathon"
 labels: ["Hackathon", "Competition", "Tech", "Road Safety"]
 body:
-  - type: textarea
+  - type: input
     attributes:
       label: Telegram handle
       description: You will join the telegram group of the competition, make sure to install the app and provide your telegram handle here.
     validations:
       required: true
-  - type: textarea
+  - type: input
+    attributes:
+      label: Age
+      description: Provide your age. A maximum of 35 years old is allowed.
+    validations:
+      required: false
+  - type: dropdown
+    id: gender
+    attributes:
+      label: Gender
+      description: Select your gender.
+      multiple: false
+      options:
+        - Male
+        - Female
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Region
+      description: In which region are you located ?
+      multiple: false
+      options:
+        - Centre
+        - Littoral
+        - West
+        - North West
+        - South West
+        - Adamawa
+        - North
+        - Far North
+        - East
+        - South
+    validations:
+      required: false
+  - type: input
     attributes:
       label: Team name
       description: Provide your team's name.
@@ -17,15 +52,16 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Team members
-      description: You can participate alone or a maximum of 5 candidates, provide their telegram's handle separated by a comma
+      label: Team members' telegram handle
+      description: You can participate alone or a maximum of 5 candidates, provide team members' telegram's handle separated by a comma
       placeholder: "@peter, @vanessa"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: project
     attributes:
-      label: Which topic do you plan on working on ?
+      label: Project
+      description: Which topic do you plan on working on ?
       multiple: false
       options:
         - Road safety perception reporting
