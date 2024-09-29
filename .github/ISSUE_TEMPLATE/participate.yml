@@ -7,6 +7,7 @@ body:
     attributes:
       label: Telegram handle
       description: You will join the telegram group of the competition, make sure to install the app and provide your telegram handle here.
+      placeholder: lukeCage
     validations:
       required: true
   - type: input
@@ -54,7 +55,7 @@ body:
     attributes:
       label: Team members' telegram handle
       description: You can participate alone or a maximum of 5 candidates, provide team members' telegram's handle separated by a comma
-      placeholder: "@peter, @vanessa"
+      placeholder: "peter, vanessa"
     validations:
       required: false
   - type: dropdown
