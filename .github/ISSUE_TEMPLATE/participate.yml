@@ -51,13 +51,6 @@ body:
       description: Provide your team's name.
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Team members' telegram handle
-      description: You can participate alone or a maximum of 5 candidates, provide team members' telegram's handle separated by a comma
-      placeholder: "peter, vanessa"
-    validations:
-      required: false
   - type: dropdown
     id: project
     attributes:
