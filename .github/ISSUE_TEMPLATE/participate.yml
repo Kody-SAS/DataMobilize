@@ -5,17 +5,37 @@ labels: ["Hackathon", "Competition", "Tech", "Road Safety"]
 body:
   - type: input
     attributes:
-      label: Telegram handle
-      description: You will join the telegram group of the competition, make sure to install the app and provide your telegram handle here.
-      placeholder: lukeCage
+      label: Full Name
+      description: Provide your full name
+      placeholder: Luke Cage
     validations:
       required: true
   - type: input
     attributes:
-      label: Age
-      description: Provide your age. A maximum of 35 years old is allowed.
+      label: Telephone number
+      description: Provide your telephone number
+      placeholder: (+237)6xxxxxxxx
     validations:
       required: false
+  - type: input
+    attributes:
+      label: Email address
+      description: Provide your email address
+      placeholder: example@data.com
+    validations:
+      required: true
+  - type: dropdown
+    id: age
+    attributes:
+      label: Age
+      description: What is your age interval ?
+      multiple: false
+      options:
+        - Less than 18 years
+        - Between 18 and 35 years
+        - More than 35 years
+    validations:
+      required: true
   - type: dropdown
     id: gender
     attributes:
@@ -27,6 +47,15 @@ body:
         - Female
     validations:
       required: false
+  - type: dropdown
+    id: nationality
+    attributes:
+      label: Nationality
+      description: What is your nationality ?
+      multiple: false
+      options:
+        - Cameroonian
+        - Others
   - type: dropdown
     attributes:
       label: Region
@@ -43,12 +72,109 @@ body:
         - Far North
         - East
         - South
+        - Outside of Cameroon
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: YOURS REGISTRATION
+      description: Are you an official Global Youth Coalition for road safety member (if not register [here](https://claimingourspace.org/register))
+      multiple: false
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: DataMobilize follower
+      description: Are you an official follower of the DataMobilize social Platform? (if not, follow [here](https://www.linkedin.com/company/data-mobilize/posts/?feedView=all))
+      multiple: false
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Coding knowledge
+      description: How would you rate your level of knowledge on coding and programming skills ? communication skills and command of social media platforms ?
+      multiple: false
+      options:
+        - Excellent
+        - Good
+        - Fair
+        - Poor
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Road safety knowledge
+      description: What is your knowledge level of the Sustainable Development Goals and the global road safety crisis facing youth, as well as the road safety situation in Cameroon ?
+      multiple: false
+      options:
+        - Very high
+        - Moderate
+        - Limited
+        - No knowledge
     validations:
       required: false
   - type: input
     attributes:
+      label: Telegram handle
+      description: You will join the telegram group of the competition, make sure to install the app and provide your telegram handle here.
+      placeholder: lukeCage
+    validations:
+      required: true
+  - type: input
+    attributes:
       label: Team name
       description: Provide your team's name.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Members in the team
+      description: How many members are in your team ?
+      multiple: false
+      options:
+        - I am alone
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+    validations:
+      required: true
+  - type: dropdown 
+    attributes:
+      label: Number of males
+      description: How many men are in your team ?
+      multiple: false
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+  - type: dropdown 
+    attributes:
+      label: Number of females
+      description: How many women are in your team ?
+      multiple: false
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+  - type: dropdown
+    attributes:
+      label: Criteria satisfaction
+      description: Does at least half of your team meet the eligibility criteria [here](see article 4 of the ToRs) ?
+      multiple: false
+      options:
+        - Yes
+        - No
     validations:
       required: true
   - type: dropdown
@@ -63,3 +189,7 @@ body:
         - Incident reporting
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Motivation
+      description: Please provide in 200 words maximum, a summary of your motivation to take part in the competition and a brief description of what you intend to develop ( if you already have an idea in mind)
