@@ -13,7 +13,7 @@ The application should include:
 - A user login option (with a guest mode),  
 - Functionalities for the chosen topic (options for road safety reporting, visualization (maps, graph, charts, statistics, etc.) and exploration and other features the developers might think of). 
 - The application should be able run on Android (and possibly on an iPhone).
-- The developers are free to use the tech stack of their choice although cross platform solutions (React Native, Flutter, etc) are encouraged. A react native template is provided [here]() if the candidates decides to use React Native as the project stack.
+- The developers are free to use the tech stack of their choice although cross platform solutions (React Native, Flutter, etc) are encouraged. A react native template is provided [here](https://github.com/Kody-SAS/ExpoReactNativeTemplate) if the candidates decides to use React Native as the project stack.
 - The application shall be **functional** and testable.
 - The candidates repository **should** contain a release tag containing the latest build of the application.
 
@@ -39,7 +39,7 @@ For evaluating hackathon projects, the following criteria will be considered :
 - Hackathon requirements adherence to check if the app meets specific criteria for login, reporting, visualization and exploration, aligning with the event’s description.
 
 ## Participation and planning
-To participate, the candidate shall submit an issue [here](), filling the form and providing the appropriate information.
+To participate, the candidate shall submit an issue [here](https://github.com/Kody-SAS/DataMobilize/issues/new?assignees=&labels=Hackathon%2CCompetition%2CTech%2CRoad+Safety&projects=&template=participate.yml&title=Registration+for+DataMobilize+Hackathon), filling the form and providing the appropriate information.
 The hackathon follows the calendar:
 - 30th September, beginning of registration
 - 13th OCtober at 11:59pm, application closes
