@@ -81,8 +81,8 @@ body:
       description: Are you an official Global Youth Coalition for road safety member (if not register [here](https://claimingourspace.org/register))
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: dropdown
@@ -91,8 +91,8 @@ body:
       description: Are you an official follower of the DataMobilize social Platform? (if not, follow [here](https://www.linkedin.com/company/data-mobilize/posts/?feedView=all))
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: dropdown
@@ -173,8 +173,8 @@ body:
       description: Does at least half of your team meet the eligibility criteria [here](see article 4 of the ToRs) ?
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: dropdown
@@ -193,4 +193,3 @@ body:
     attributes:
       label: Motivation
       description: Please provide in 200 words maximum, a summary of your motivation to take part in the competition and a brief description of what you intend to develop ( if you already have an idea in mind)
-      placeholder: ""
