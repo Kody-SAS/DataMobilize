@@ -179,7 +179,7 @@ body:
     id: criteria
     attributes:
       label: Criteria satisfaction
-      description: Does at least half of your team meet the eligibility criteria [here](see article 4 of the ToRs) ?
+      description: Does at least half of your team meet the eligibility criteria [here](https://github.com/Kody-SAS/DataMobilize#eligibility) ?
       multiple: false
       options:
         - "Yes"
