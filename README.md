@@ -41,13 +41,9 @@ For evaluating hackathon projects, the following criteria will be considered :
 ## Participation and planning
 To participate, the candidate shall submit an issue [here](https://github.com/Kody-SAS/DataMobilize/issues/new?assignees=&labels=Hackathon%2CCompetition%2CTech%2CRoad+Safety&projects=&template=participate.yml&title=Registration+for+DataMobilize+Hackathon), filling the form and providing the appropriate information.
 The hackathon follows the calendar:
-- 30th September, beginning of registration
-- 13th OCtober at 11:59pm, application closes
-- 14th October, hackathon starts
-- 20th October, submission of projects
-- 21st October, Begin corrections of the projects
-- 27th October, end of corrections
-- 28th October, announcement of the winner(s)
+- October 10th , 2024 : Online opening of application to the hackathon.
+- November 17th, 2024 : Online closing of application to the hackathon.
+- November 22nd, 2024 : Online communication of the winning projects.
 
 > Note: **Only** the main (master) branch of each project shall be reviewed. 
 > **Any commit made to this branch (main branch) after the end of submissions shall disqualify the project**
