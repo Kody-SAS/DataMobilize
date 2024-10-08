@@ -93,7 +93,7 @@ body:
     id: isDataMobilizeFollower
     attributes:
       label: DataMobilize follower
-      description: Are you an official follower of the DataMobilize social Platform? (if not, follow [here](https://www.linkedin.com/company/data-mobilize/posts/?feedView=all))
+      description: Are you an official follower of the DataMobilize social Platform? (if not, follow us here on Linkedin [here](https://www.linkedin.com/company/data-mobilize/posts/?feedView=all) and on Facebook [here](https://www.facebook.com/profile.php?id=61566983276426))
       multiple: false
       options:
         - "Yes"
