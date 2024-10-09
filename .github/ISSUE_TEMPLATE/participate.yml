@@ -134,7 +134,7 @@ body:
     attributes:
       label: Telegram handle
       description: You will join the telegram group of the competition, make sure to install the app and provide your telegram handle here.
-      placeholder: "@lukeCage"
+      placeholder: "lukeCage"
     validations:
       required: true
   - type: input
