@@ -144,6 +144,13 @@ body:
       description: Provide your team's name.
     validations:
       required: true
+  - type: input
+    id: projectLink
+    attributes:
+      label: Repository's link
+      description: Provide your repository's link. It should be public at the submission date.
+    validations:
+      required: true
   - type: dropdown
     id: membersNumber
     attributes:
