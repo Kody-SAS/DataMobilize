@@ -219,4 +219,4 @@ body:
   - type: textarea
     attributes:
       label: Motivation
-      description: Please provide in 200 words maximum, a summary of your motivation to take part in the competition and a brief description of what you intend to develop ( if you already have an idea in mind)
+      description: Please provide in 200 words maximum, a summary of your motivation to take part in the competition and a brief description of what you intend to develop (if you already have an idea in mind)
