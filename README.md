@@ -2,7 +2,7 @@
 
 <br/>
 
-[Support](./docs/Support.PNG)
+![Support](./docs/Support.PNG)
 
 <br/>
 
