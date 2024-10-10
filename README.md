@@ -8,6 +8,19 @@
 
 The **<#DataMobilize Hackathon : Use your code to improve road safety in Cameroon/>**, is an online competition which aims to engage young people from Cameroon in putting their coding skills and ideas in developing innovative applications that address specific road safety issues in Cameroon. 
 
+## Table of content
+- [DataMobilize Hackathon](#datamobilize-hackathon)
+  - [Table of content](#table-of-content)
+  - [Introduction](#introduction)
+  - [General overview](#general-overview)
+  - [Eligibility](#eligibility)
+  - [Evaluation criteria](#evaluation-criteria)
+  - [Application procedure](#application-procedure)
+    - [Initial Submission:](#initial-submission)
+    - [Project Submission:](#project-submission)
+  - [Participation and planning](#participation-and-planning)
+  - [Queries and contact information](#queries-and-contact-information)
+
 ## Introduction
 The hackathon will focus on building a mobile application for road safety reporting and visualization. The candidate shall choose to work on
 one of the three (3) topics below:
