@@ -38,12 +38,29 @@ For evaluating hackathon projects, the following criteria will be considered :
 - Extra Mile to recognize additional efforts and innovations that enhance the app beyond basic requirements. 
 - Hackathon requirements adherence to check if the app meets specific criteria for login, reporting, visualization and exploration, aligning with the event’s description.
 
+## Application procedure
+The application procedure is as follow 
+### Initial Submission:
+- **Action**: Participants must complete a form expressing their interest, providing team details, and outlining their project idea.
+- **Information**: After submission, participants should join the telegram group of participants which will be the official communication channel with them during the event. To join the telegram group, each participant must open the telegram bot [DMParticipationBot](https://t.me/DMParticipationBot) and follow the instructions by providing his/her Github handle. If the Github handle is a valid participant handle, he/she will be invited to the group.
+### Project Submission:
+- **Action**: Following the group admission, participants will be welcomed, assisted during the hackathon and each they can submit their final project at their convenience before the hackathon deadline.
+- **Deadline** : The hackathon is open until November 17th, 2024, at 23:59 Cameroon time.
+
 ## Participation and planning
 To participate, the candidate shall submit an issue [here](https://github.com/Kody-SAS/DataMobilize/issues/new?assignees=&labels=Hackathon%2CCompetition%2CTech%2CRoad+Safety&projects=&template=participate.yml&title=Registration+for+DataMobilize+Hackathon), filling the form and providing the appropriate information.
 The hackathon follows the calendar:
 - October 10th , 2024 : Online opening of application to the hackathon.
 - November 17th, 2024 : Online closing of application to the hackathon.
 - November 22nd, 2024 : Online communication of the winning projects.
+- November 29nd, 2024 : In presence prize presentation to the winners (1st place) in Yaoundé, Cameroon.
 
 > Note: **Only** the main (master) branch of each project shall be reviewed. 
 > **Any commit made to this branch (main branch) after the end of submissions shall disqualify the project**
+
+## Queries and contact information
+The following are important information about receiving support and staying up to date :
+- **Contact**: For any questions or clarifications, participants can reach out to the hackathon organizers at contact@kodytech.net with local.actions.cm@gmail.com in cc. 
+- **Notifications**: Participants will receive notifications about their application status and any important updates via the telegram bot DMParticipationBot or by email. Participants should ensure they provide a valid email address and contact details during registration.
+- **Information**: All relevant information, including updates and guidelines, will be shared through the Data Mobilize project official communication channels. For the latest updates, visit and follow  DataMobilize on Linkedin , DataMobilize on Facebook,  Kody on Linkedin and Kody on Facebook.
+- **Support**: If you encounter any issues or need assistance, please reach out at contact@kodytech.net with  local.actions.cm@gmail.com in cc or alternatively for urgent issues call + (237) 676 761 902. 
